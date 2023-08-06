@@ -57,7 +57,7 @@ I begin by initializing the v8 platform and compiling a module and storing it in
 
 ### Async promise resolution appears to be the source of the issue
 
-The value of `SOURCE CODE` is very important to this demonstration, so now is a good point to show when I see a runaway heap and when I do not.
+The value of `SOURCE CODE` is very important to this demonstration,
 
 when `SOURCE_CODE` is equal to `"export let main = () => 'hello world'";` there is no issue.
 
